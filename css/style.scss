@@ -254,6 +254,10 @@ section {
             // display: inline-block;
         }
     }
+
+    .swiper-pagination {
+        bottom: 140px;
+    }
 }
 
 .products-preview-container {
@@ -464,6 +468,11 @@ section {
     section {
         padding: 3rem 2rem;
     }
+    .products {
+        .swiper-pagination {
+            bottom: 130px;
+        }
+    }
 }
 
 @media (max-width: 450px) {
@@ -476,5 +485,11 @@ section {
 
     .products .slide img {
         height: 15rem;
+    }
+
+    .products {
+        .swiper-pagination {
+            bottom: 120px;
+        }
     }
 }
